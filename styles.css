@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+/* Section one */
+
+.intro {
+    background-color: #1F2937;
+    padding: 16px 15% 64px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.header-links {
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+}
+
+.header-links a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #f9faf7;
+    font-weight: 800;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 64px 0;
+}
+
+.content img {
+    border-radius: 16px;
+}
+
+.hero button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-weight: 600;
+}
+
+/* Section two */
+
+.info {
+    padding: 16px 15% 48px;
+}
+
+.info h1 {
+    text-align: center;
+    font: 36px 800 #1f2937;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin: 48px; 
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-card img {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.info-card p {
+    text-align: center;
+    color: #777777;
+}
+
+/* Section three */
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 54px 20%;
+}
+
+.quote .text {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937; 
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.quote .credit {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end; 
+}
+
+/* Section four */
+
+.footer {
+    display: flex;
+    background-color: #3882f6;
+    margin: 64px 15%;
+    border-radius: 16px;
+    align-items: center;
+}
+
+.footer .content {
+    padding: 32px 15%;
+    color: #f9faf8;
+}
+
+.footer .head {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer .text {
+    color: #e5e7eb;
+    font-size: 15px;
+}
+
+.footer .head,
+.footer .text {
+    margin: 6px auto;
+}
+
+.footer button {
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-weight: 600;
+}
