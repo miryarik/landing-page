@@ -126,11 +126,12 @@ body {
     background-color: #3882f6;
     margin: 64px 15%;
     border-radius: 16px;
+    justify-content: space-between;
     align-items: center;
+    padding: 32px 10%;
 }
 
 .footer .content {
-    padding: 32px 15%;
     color: #f9faf8;
 }
 
