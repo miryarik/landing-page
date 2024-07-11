@@ -157,4 +157,6 @@ body {
     border-radius: 8px;
     padding: 8px 32px;
     font-weight: 600;
+    text-wrap: nowrap;
+
 }
